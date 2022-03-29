@@ -1,0 +1,15 @@
+/* Navigeringsmenyn */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header div {
+    display: flex;
+}
+
+#learnmore, #donate {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
