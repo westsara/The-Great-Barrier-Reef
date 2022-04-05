@@ -1,6 +1,0 @@
-#gridmeny {
-    display: grid;
-    grid-auto-rows: minmax(40vw, auto);
-    grid-template-columns: 1.2fr 0.8fr;
-    grid-row-gap: 15vw;
-}
