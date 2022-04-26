@@ -1,8 +1,8 @@
 /* Side navigation menu*/
 
-/* Set the width of the side navigation to 250px */
+/* Set the width of the side navigation to 20vw */
 function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("mySidenav").style.width = "20vw";
 }
 
 /* Set the width of the side navigation to 0 */

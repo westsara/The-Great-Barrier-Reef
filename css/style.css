@@ -7,11 +7,11 @@
 a{/* Design till alla länkar*/
   text-decoration: none;
   color: black;
-  background-color:rgb(64, 213, 169);
 }
 
 a:hover{
   opacity:50%;
+  transition: 0.3s; /* Mjukar övergång - transition effect*/
 }
 
 img{
@@ -33,6 +33,7 @@ img{
 #learnmore, #donate{
   font-size:1.75vw;
   margin:3vw;
+  background-color:rgb(64, 213, 169)
 }
 
 #learnmore{
@@ -53,9 +54,10 @@ img{
 
 .h1onclick:hover{ /*Länk H1 på learnmore sidan*/
   opacity:50%;
+  transition: 0.3s; /* Mjukar övergång - transition effect*/
 }
 
-/* The side navigation menu */
+/* Side navigation menu */
 .sidenav {
   height: 100%;
   width: 0;
@@ -64,31 +66,30 @@ img{
   top: 0;
   left: 0;
   background-color: black;
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  overflow-x: hidden; /* Ta bort horizontal scroll */
+  padding-top: 6vw; /* Placera content 6vw från toppen  */
+  transition: 0.5s; /* Mjukar övergång - transition effect*/
 }
 
-/* The navigation menu links */
+/* Navigation menu länkar */
 .sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+  padding: 0.5vw 0.5vw 0.5vw 3vw;
+  font-size: 2vw;
+  color: white;
   display: block;
   transition: 0.3s;
 }
 
-/* When you mouse over the navigation links, change their color */
+/* Länkarna ändrar färg vid hoover */
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: rgb(64, 213, 169);
 }
 
-/* Position and style the close button (top right corner) */
+/* Position och styling av stängknappen*/
 .sidenav .closebtn {
   position: absolute;
   top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+  right: 3vw;
+  font-size: 4vw;
+  margin-left: 5vw;
 }
