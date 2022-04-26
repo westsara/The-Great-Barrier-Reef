@@ -1,20 +1,56 @@
 *{
-  padding:0;
   margin:0;
+  padding:0;
+  font-family: 'Bebas Neue', cursive;
 }
 
-a{
+a{/* Design till alla länkar*/
   text-decoration: none;
+  color: black;
+  background-color:rgb(64, 213, 169);
+}
+
+a:hover{
+  opacity:50%;
 }
 
 img{
-  width: 100%;
+  width:100%;
 }
 
 /* Navigeringsmenyn */
 #learnmore, #donate, .title{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    align-self: center;
+  text-align: center;
+  align-self: center;
+}
+
+#donate{ /* Donera knappen ska ha rundade kanter*/
+  border-radius:60%;
+  padding-top:0.5vw;
+  padding-bottom:0.5vw;
+}
+
+#learnmore, #donate{
+  font-size:1.75vw;
+  margin:3vw;
+}
+
+#learnmore{
+  background-color:white;
+}
+
+.title{
+  font-family: 'Sansita Swashed', cursive;
+  color:white;
+}
+
+#gridmeny{
+  position:sticky;/*Menyn ska stanna kvar när man scrollar*/
+  position: -webkit-sticky; /* Safari */
+  top:0;
+  background-color:black;
+}
+
+.h1onclick:hover{ /*Länk H1 på learnmore sidan*/
+  opacity:50%;
 }
