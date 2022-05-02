@@ -38,14 +38,6 @@
   grid-column:1/5;
 }
 
-.left{
-  grid-column: 1/2;
-}
-
-.right{
-  grid-column: 2/3;
-}
-
 /* Två bilder */
 .img1, .img2{
   grid-row: 2/3;
@@ -75,7 +67,7 @@
   grid-row-gap:5vw;
 }
 
-#white{
+.white{
   grid-column:1/-1;
   grid-row:6/7;
 }
@@ -142,9 +134,9 @@
 
 
 /* Bild med text på*/
-.textwpic{
-  grid-row: 1/2;
-  grid-column:1/-1;
+.stateonpic{
+  grid-column:4/7;
+  grid-row:1/2;
 }
 
 /* Info med bilder */
@@ -164,47 +156,54 @@
   grid-column:5/7;
 }
 
-/* Statement med tre bilder */
-.fullw{
+/*Egen grid*/
+/* Statement med bild*/
+.whiteb{
   grid-column: 1/-1;
-}
-
-.state{
   grid-row:3/4;
 }
 
+.state{
+  grid-column:1/2;
+  grid-row:1/2;
+}
+
+.statepic{
+  grid-column:2/3;
+  grid-row:1/2;
+}
+
+.linkdonate{
+  grid-column:1/2;
+  grid-row:1/2;
+}
+
+/*Tre bilder*/
 .left{
-  grid-column:1/4;
+  grid-column:1/2;
 }
 
 .right{
-  grid-column:4/7;
+  grid-column:2/3;
 }
 
 .img{
-  grid-row:4/6;
-}
-
-.up{
-  grid-row:4/5;
-}
-
-.down{
-  grid-row:5/6;
+  grid-row:2/3;
 }
 
 /* Bilder med info*/
 .row1{
-  grid-row:6/7;
+  grid-row:3/4;
 }
 
 .row2{
-  grid-row:7/8;
+  grid-row:4/5;
 }
+/* Egen grid slut*/
 
 /* Donation med bild */
 .imgdonate, .statedonate{
-  grid-row: 8/9;
+  grid-row: 7/8;
 }
 
 /*Sista bilden*/
