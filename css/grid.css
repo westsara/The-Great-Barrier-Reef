@@ -23,7 +23,7 @@
 #gridcontent{ /* Grid till all content på sidan */
   display:grid;
   grid-auto-rows: minmax(40vw, auto);
-  grid-template-columns: 0.5fr 0.5fr;
+  grid-template-columns:repeat(6, 1fr);
   grid-row-gap: 15vw;
 }
 
@@ -31,6 +31,11 @@
 .textwpic{
   grid-row: 1/2;
   grid-column:1/-1;
+}
+
+.textonpic{
+  grid-row:1/2;
+  grid-column:1/5;
 }
 
 .left{
@@ -46,53 +51,95 @@
   grid-row: 2/3;
 }
 
+/*Statement*/
+.statement{
+  grid-row:3/4;
+  grid-column:2/6;
+}
+
+/* Bildspel*/
+.slideshow-container{
+  grid-column:1/-1;
+  grid-row:4/5;
+}
+
 /* Statement med bild*/
 .statelearnmore, .imglearnmore{
-  grid-row: 3/4;
-}
-
-/* Statements plus länk */
-.state1, .state3{
-  grid-column: 1/2;
-}
-
-.state1{
-  grid-row: 4/5;
-}
-
-.state2{
-  grid-column: 2/3;
   grid-row: 5/6;
 }
 
+#white{/* Grid till tre statements med bilder*/
+  display:grid;
+  grid-auto-rows: minmax(5vw, auto);
+  grid-template-columns:repeat(2, 1fr);
+  grid-row-gap:5vw;
+}
+
+#white{
+  grid-column:1/-1;
+  grid-row:6/7;
+}
+
+.state1{
+  grid-column:1/2;
+  grid-row:1/2;
+}
+
+.bild1{
+  grid-column:2/3;
+  grid-row:1/2;
+}
+
+.state2{
+  grid-column:2/3;
+  grid-row:2/3;
+}
+
+.bild2{
+  grid-column:1/2;
+  grid-row:2/3;
+}
+
 .state3{
-  grid-row: 6/7;
+  grid-column:1/2;
+  grid-row:3/4;
+}
+
+.bild3{
+  grid-column:2/3;
+  grid-row:3/4;
 }
 
 .donate{
-  grid-column: 1/-1;
-  grid-row: 7/8;
+  grid-column:1/-1;
+  grid-row:4/5;
 }
+
 
 /* Sista bilden */
 .fullpic{
   grid-column: 1/-1;
-  grid-row: 8/9;
+  grid-row:7/8;
 }
 
 /* Footer*/
-.foot, .imgfoot, .donatefoot{
-  grid-row: 9/10;
+.imgfoot{
+  grid-row: 8/9;
+  grid-column:4/7;
 }
 
+.foot{
+  grid-row:8/9;
+  grid-column:1/4;
+}
+
+.donatefoot{
+  grid-row:8/9;
+  grid-column:5/6;
+}
 
 /*  LEARN MORE SIDAN */
-#gridcontent{ /* Grid till all content på sidan */
-  display:grid;
-  grid-auto-rows: minmax(40vw, auto);
-  grid-template-columns:repeat(6, 1fr);
-  grid-row-gap: 15vw;
-}
+
 
 /* Bild med text på*/
 .textwpic{
@@ -161,11 +208,11 @@
 }
 
 /*Sista bilden*/
-.fullpic{
+/*.fullpic{
   grid-row: 9/10;
 }
 
 /* Footer*/
-.foot, .imgfoot, .donatefoot{
+/*.foot, .imgfoot, .donatefoot{
   grid-row: 10/11;
-}
+}*/
