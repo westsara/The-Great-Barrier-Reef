@@ -227,6 +227,11 @@
   grid-column:1/-1;
 }
 
+.picwtext{
+  grid-row:5/6;
+  grid-column:4/7;
+}
+
 /* Footer*/
 .footlearnimg{
   grid-row: 6/7;
