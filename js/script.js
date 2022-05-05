@@ -2,7 +2,7 @@
 
 /* Bredden av menyn ska vara 20vw */
 function openNav() {
-  document.getElementById("mySidenav").style.width = "20vw";
+  document.getElementById("mySidenav").style.width = "25vw";
 }
 
 /* Bredden av menyn ska vara 0 */

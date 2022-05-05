@@ -246,3 +246,63 @@
 .footlearnlink{
   grid-row:6/7;
 }
+
+/* Mediaquery*/
+@media only screen and (max-width: 600px){
+#gridmeny{
+  grid-template-columns:0.4fr 0.3fr 0.3fr;
+  grid-template-rows:8vw;
+}
+
+.textonpic, .img2, .imglearnmore, .statelearnmore
+, .state1, .bild1, .state2, .bild2, .state3, .bild3
+, .donate, .footindeximg, .footindexlink, .footindexlist{
+  grid-column:1/-1;
+}
+
+.statelearnmore{
+  grid-row:6/7;
+}
+
+.white{
+  grid-row:7/8;
+}
+
+.state1{
+  grid-row:2/3;
+}
+
+.bild2{
+  grid-row:3/4;
+}
+
+.state2{
+  grid-row:4/5;
+}
+
+.bild3{
+  grid-row:5/6;
+}
+
+.state3{
+  grid-row:6/7;
+}
+
+.donate{
+  grid-row:7/8;
+}
+
+.lastpic{
+  grid-row:8/9;
+}
+
+.footindeximg{
+  grid-row:9/10;
+}
+
+.footindexlink, .footindexlist{
+  grid-row:10/11;
+}
+
+
+}

@@ -346,3 +346,58 @@ img{
   align-self:center;
   margin:5vw;
 }
+
+/*Mediaquery*/
+@media only screen and (max-width: 600px){
+#learnmore, #donate{
+  font-size:3vw;
+}
+
+.sidenav a, .donate, .foot, .donatefoot{
+  font-size:3.5vw;
+}
+
+.sidenav .closebtn, .statement{
+  font-size:6vw;
+}
+
+.h2{
+  font-size:7vw;
+}
+
+.textonpic, .statewlink, .big{
+  font-size:4vw;
+}
+
+.img1{
+  display:none;
+}
+
+.imglearnmore{
+  height:120vw;
+}
+
+.statelearnmore{
+  text-align:center;
+}
+
+.linkwstate{
+  margin-left:0;
+  font-size:3vw;
+}
+
+.imgfoot{
+  margin:0;
+  justify-self:center;
+}
+
+.foot{
+  margin-top:-10vw;
+}
+
+.donatefoot{
+  margin-left:40vw;
+  margin-right:40vw;
+}
+
+}
