@@ -1,6 +1,6 @@
 /* Navigeringsmeny*/
 
-/* Bredden av menyn ska vara 20vw */
+/* Bredden av menyn ska vara 25vw */
 function openNav() {
   document.getElementById("mySidenav").style.width = "25vw";
 }
