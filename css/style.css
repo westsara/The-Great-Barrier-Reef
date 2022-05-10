@@ -353,11 +353,23 @@ img{
   font-size:4vw;
 }
 
-.sidenav a, .donate, .foot, .donatefoot{
+.sidenav a{
+  font-size:4.5vw;
+}
+
+.sidenav .closebtn{
+  font-size:10vw;
+}
+
+.sidenav{
+  padding-top:15vw;
+}
+
+.donate, .foot, .donatefoot{
   font-size:3.5vw;
 }
 
-.sidenav .closebtn, .statement, .text{
+.statement, .text{
   font-size:6vw;
 }
 
