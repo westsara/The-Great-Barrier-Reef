@@ -348,7 +348,7 @@ img{
 }
 
 /*Mediaquery*/
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
 #learnmore, #donate{
   font-size:3vw;
 }
@@ -357,7 +357,7 @@ img{
   font-size:3.5vw;
 }
 
-.sidenav .closebtn, .statement{
+.sidenav .closebtn, .statement, .text{
   font-size:6vw;
 }
 
@@ -365,7 +365,7 @@ img{
   font-size:7vw;
 }
 
-.textonpic, .statewlink, .big{
+.textonpic, .statewlink, .big, .text1, .text2, .text3, .fact, .statedonatelink{
   font-size:4vw;
 }
 
@@ -398,6 +398,81 @@ img{
 .donatefoot{
   margin-left:40vw;
   margin-right:40vw;
+}
+
+.stateonpic{
+  border-radius:40%;
+  margin-top:55vw;
+  margin-bottom:0;
+}
+
+.picfish, .down{
+  display:none;
+}
+
+.pic1, .pic2, .pic3{
+  height:70vw;
+  margin:0;
+  margin-bottom:2vw;
+}
+
+.text1, .text2, .text3{
+  margin-left:10vw;
+}
+
+.info1, .info2, .info3{
+  text-align:center;
+}
+
+.statepic{
+  height:80%;
+  justify-self:center;
+  margin:0;
+  margin-top:10vw;
+}
+
+.state{
+  margin-top:-15vw;
+}
+
+.linkdonate{
+  justify-self:center;
+  margin:0;
+  margin-top:15vw;
+  font-size:3.5vw;
+  padding:2vw 5vw 2vw 5vw;
+}
+
+.high{
+  margin-top:5vw;
+  height:100vw;
+}
+
+.imgwfacts{
+  margin:0;
+  height:auto;
+}
+
+.mq1, .mq2, .mq3, .mq4{
+  text-align:center;
+}
+
+.imgdonate{
+  margin:0;
+  justify-self:center;
+}
+
+.statedonate{
+  margin:0;
+  margin:0 5vw 0 5vw;
+}
+
+.statedonatelink{
+  padding:2vw 5vw 2vw 5vw;
+}
+
+.picwtext{
+  font-size:10vw;
 }
 
 }

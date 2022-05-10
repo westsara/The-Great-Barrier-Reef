@@ -248,7 +248,7 @@
 }
 
 /* Mediaquery*/
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
 #gridmeny{
   grid-template-columns:0.4fr 0.3fr 0.3fr;
   grid-template-rows:8vw;
@@ -256,7 +256,9 @@
 
 .textonpic, .img2, .imglearnmore, .statelearnmore
 , .state1, .bild1, .state2, .bild2, .state3, .bild3
-, .donate, .footindeximg, .footindexlink, .footindexlist{
+, .donate, .imgfoot, .donatefoot, .foot,
+ .stateonpic, .info1, .info2, .info3, .statepic, .state,
+ .imgdonate, .linkdonate, .statedonate, .sid1, .sid2{
   grid-column:1/-1;
 }
 
@@ -304,5 +306,61 @@
   grid-row:10/11;
 }
 
+.info2{
+  grid-row:3/4;
+}
+
+.info3{
+  grid-row:4/5;
+}
+
+.whiteb{
+  grid-row:5/6;
+}
+
+.state, .linkdonate{
+  grid-row:2/3;
+}
+
+.high{
+  grid-row:3/4;
+}
+
+.mq1{
+  grid-row:4/6;
+}
+
+.mq2{
+  grid-row:6/8;
+}
+
+.mq3{
+  grid-row:8/10;
+}
+
+.mq4{
+  grid-row:10/12;
+}
+
+
+.imgdonate{
+  grid-row:6/7;
+}
+
+.statedonate{
+  grid-row:7/8;
+}
+
+.fullpic, .picwtext{
+  grid-row:8/9;
+}
+
+.footlearnimg{
+  grid-row:9/10;
+}
+
+.footlearnlink, .footlearnlist{
+  grid-row:10/11;
+}
 
 }
