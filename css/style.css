@@ -349,8 +349,8 @@ img{
 
 /*Mediaquery*/
 @media only screen and (max-width: 700px){
-#learnmore, #donate{
-  font-size:3vw;
+#learnmore, #donate, .title{
+  font-size:4vw;
 }
 
 .sidenav a, .donate, .foot, .donatefoot{
